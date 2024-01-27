@@ -19,7 +19,7 @@ const App = () => {
   const mostVotes = votes.indexOf(Math.max(...votes));
 
 
-  console.log("Eniten ääniä lkm: ", Math.max(...votes));
+  console.log("Eniten ääniä lukumäärä: ", Math.max(...votes));
   console.log("Eniten ääniä kenellä: ", anecdotes[mostVotes]);
 
   
