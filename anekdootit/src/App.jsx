@@ -47,7 +47,8 @@ const App = () => {
       <p>Valitulla anekdootilla on ääniä nyt {votes[selected]}</p>
       <div>
         <h3>Eniten ääniä saanut anekdootti</h3>
-        <p>{anecdotes[mostVotes]}</p>
+        <p>{anecdotes[mostVotes]} </p>
+        <p>Ääniä: {Math.max(...votes)} </p>
       </div>
     </div>
   )
